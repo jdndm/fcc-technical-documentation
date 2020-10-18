@@ -2,12 +2,13 @@ li {
   list-style: none;
 }
 
-#navbar {
-  position: fixed;
-  width: 300px;
+.page-wrapper {
+  display: flex;
 }
 
-#main-doc {
-  position: absolute;
-  margin-left: 310px;
+@media (max-width: 800px) {
+  .page-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
 }
