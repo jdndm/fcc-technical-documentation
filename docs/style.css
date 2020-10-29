@@ -13,10 +13,7 @@ li {
 }
 
 #main-doc {
-  position: relative;
-  left: 280px;
-  word-wrap: normal;
-  width: auto;
+  margin: 0px 5px 0px 250px;
 }
 
 @media (max-width: 800px) {
