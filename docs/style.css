@@ -1,14 +1,23 @@
+body {
+  font-size: medium;
+}
+
 li {
   list-style: none;
 }
+#navbar {
+  border-right: solid 2px;
+  border-color: #d3d3d3;
+  position: fixed;
+  width: 240px;
+}
 
-.page-wrapper {
-  display: flex;
+#main-doc {
+  position: relative;
+  left: 280px;
+  word-wrap: normal;
+  width: auto;
 }
 
 @media (max-width: 800px) {
-  .page-wrapper {
-    display: flex;
-    flex-direction: column;
-  }
 }
